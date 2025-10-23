@@ -113,7 +113,7 @@ public class ScriptBiblioCraft implements IScriptLoader {
                 addShapelessRecipe(
                         getModItem(BiblioCraft.ID, "BiblioFancySign", 1, i),
                         getModItem(Minecraft.ID, "paper", 1),
-                        getModItem(Minecraft.ID, "sign", 1),
+                        "signWood",
                         LableB[i]);
 
                 addShapedRecipe(

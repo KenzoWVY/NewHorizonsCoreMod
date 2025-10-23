@@ -343,7 +343,7 @@ public class ScriptBiblioWoodsForestry implements IScriptLoader {
             addShapelessRecipe(
                     fancySignF1[i],
                     getModItem(Minecraft.ID, "paper", 1),
-                    getModItem(Minecraft.ID, "sign", 1),
+                    getModItem(Minecraft.ID, "signWood", 1),
                     LableF1[i]);
             if (i < 8) {
                 addShapedRecipe(
