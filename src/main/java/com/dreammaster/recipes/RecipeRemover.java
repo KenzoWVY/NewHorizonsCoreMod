@@ -758,6 +758,7 @@ public class RecipeRemover {
         removeRecipeByOutputDelayed(getModItem(Chisel.ID, "upgrade", 1, 2, missing));
         removeRecipeByOutputDelayed(getModItem(Chisel.ID, "upgrade", 1, 3, missing));
         removeRecipeByOutputDelayed(getModItem(Chisel.ID, "voidstone2", 1, 0, missing));
+        removeRecipeByOutputDelayed(getModItem(Chisel.ID, "warningSign", 1, 0, missing));
         removeRecipeByOutputDelayed(getModItem(CompactKineticGenerators.ID, "BlockCkg", 1, 0, missing));
         removeRecipeByOutputDelayed(getModItem(CompactKineticGenerators.ID, "BlockCkg", 1, 1, missing));
         removeRecipeByOutputDelayed(getModItem(CompactKineticGenerators.ID, "BlockCkg", 1, 2, missing));

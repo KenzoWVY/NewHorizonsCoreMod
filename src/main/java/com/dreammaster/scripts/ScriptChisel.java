@@ -205,6 +205,17 @@ public class ScriptChisel implements IScriptLoader {
                 getModItem(Chisel.ID, "voidstone", 1, 0, missing),
                 getModItem(Chisel.ID, "voidstone", 1, 0, missing),
                 getModItem(Chisel.ID, "voidstone", 1, 0, missing));
+        addShapedRecipe(
+                getModItem(Chisel.ID, "warningSign", 8, 0, missing),
+                getModItem(Minecraft.ID, "stone", 1, 0, missing),
+                getModItem(Minecraft.ID, "stone", 1, 0, missing),
+                getModItem(Minecraft.ID, "stone", 1, 0, missing),
+                getModItem(Minecraft.ID, "stone", 1, 0, missing),
+                "signWood",
+                getModItem(Minecraft.ID, "stone", 1, 0, missing),
+                getModItem(Minecraft.ID, "stone", 1, 0, missing),
+                getModItem(Minecraft.ID, "stone", 1, 0, missing),
+                getModItem(Minecraft.ID, "stone", 1, 0, missing));
 
         GTValues.RA.stdBuilder()
                 .itemInputs(
