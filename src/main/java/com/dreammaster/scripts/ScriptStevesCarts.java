@@ -1299,7 +1299,7 @@ public class ScriptStevesCarts implements IScriptLoader {
         addShapedRecipe(
                 getModItem(StevesCarts2.ID, "CartModule", 1, 94, missing),
                 "plateIron",
-                getModItem(Minecraft.ID, "sign", 1, 0, missing),
+                "signWood",
                 "plateIron",
                 getModItem(StevesCarts2.ID, "ModuleComponents", 1, 9, missing),
                 CustomItemList.Display.get(1L),
